@@ -6,8 +6,10 @@ var action = process.argv[2];
 var queryIng = process.argv[3];
 var fs = require("fs");
 var myArray = [];
-var phrase = "";
 var myLength = process.argv;
+
+
+
 if (myLength.length > 3) {
     for (var i = 2; i < myLength.length; i++) {
         myArray.push(process.argv[i]);
@@ -220,7 +222,7 @@ function myOmdb() {
 
 function doWhat(){
     fs.readFile("random.txt", "utf8", function(err, data){
-        thisArray = [];
+        var thisArray = [];
 
         var getData = JSON.stringify(data);
         console.log(getData);
