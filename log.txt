@@ -1,0 +1,3 @@
+{"Artist":"Metallica","Song":"The Frayed Ends Of Sanity","Album":"...And Justice For All","Preview":"https://p.scdn.co/mp3-preview/14313ab9e70d6390062393c56b4e72d34837f852?cid=null"}
+{"Artist":"Backstreet Boys","Song":"I Want It That Way","Album":"The Hits--Chapter One","Preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null"}
+{"Artist":"Backstreet Boys","Song":"I Want It That Way","Album":"The Hits--Chapter One","Preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null"}
