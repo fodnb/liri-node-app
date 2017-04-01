@@ -69,7 +69,8 @@ function myTwitter() {
             } else {
                 console.log(" ");
                 console.log("Tweet# " + (i + 1));
-                console.log(tweets.statuses[i].text);
+                console.log("TWEET: " + tweets.statuses[i].text);
+                console.log("CREATED: " + tweets.statuses[i].created_at)
                 console.log("");
                 fs.appendFile("log.txt", JSON.stringify({ Tweet: tweets.statuses[i].text }) + "\n", function(err) {
                     if (err) {
