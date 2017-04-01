@@ -3,3 +3,29 @@
 {"Artist":"Backstreet Boys","Song":"I Want It That Way","Album":"The Hits--Chapter One","Preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null"}
 {"Artist":"Backstreet Boys","Song":"I Want It That Way","Album":"The Hits--Chapter One","Preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null"}
 {"Artist":"Backstreet Boys","Song":"I Want It That Way","Album":"The Hits--Chapter One","Preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null"}
+{"Artist":"U2","Song":"Beautiful Day","Album":"All That You Can't Leave Behind","Preview":"https://p.scdn.co/mp3-preview/eb915a99b9a21b82071d3e7f3a0b9cd02105b215?cid=null"}
+{"Artist":"U2","Song":"Beautiful Day","Album":"All That You Can't Leave Behind","Preview":"https://p.scdn.co/mp3-preview/eb915a99b9a21b82071d3e7f3a0b9cd02105b215?cid=null"}
+{"Artist":"Korn","Song":"Twisted Transistor","Album":"See You On the Other Side","Preview":"https://p.scdn.co/mp3-preview/139e5ca961d08682c1a15eaef8dee686375d0702?cid=null"}
+{"Artist":"Alessia Cara","Song":"Scars To Your Beautiful","Album":"Know-It-All (Deluxe)","Preview":"https://p.scdn.co/mp3-preview/9b8859114be1f156ac7f036972fbe2d78aa022f5?cid=null"}
+{"Artist":"At The Drive In","Song":"One Armed Scissor","Album":"Relationship Of Command","Preview":"https://p.scdn.co/mp3-preview/49180ba0873b9b346f959c8d460ab8b013b4a193?cid=null"}
+{"Artist":"U2","Song":"Beautiful Day","Album":"All That You Can't Leave Behind","Preview":"https://p.scdn.co/mp3-preview/eb915a99b9a21b82071d3e7f3a0b9cd02105b215?cid=null"}
+{"Artist":"Zipsies","Song":"ThatDay","Album":"ThatDay","Preview":"https://p.scdn.co/mp3-preview/5a1cea86722012ebba39d83f071fc7934e45005f?cid=null"}
+{"Artist":"U2","Song":"Beautiful Day","Album":"All That You Can't Leave Behind","Preview":"https://p.scdn.co/mp3-preview/eb915a99b9a21b82071d3e7f3a0b9cd02105b215?cid=null"}
+{"Artist":"At The Drive In","Song":"One Armed Scissor","Album":"Relationship Of Command","Preview":"https://p.scdn.co/mp3-preview/49180ba0873b9b346f959c8d460ab8b013b4a193?cid=null"}
+{"Artist":"Backstreet Boys","Song":"I Want It That Way","Album":"The Hits--Chapter One","Preview":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=null"}
+{"Title":"Forrest Gump","Rated":"PG-13","Country":"USA","Language":"English","Plot":"Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.","Actors":"Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys"}
+{"Artist":"Prince","Song":"1999","Album":"1999","Preview":"https://p.scdn.co/mp3-preview/a9e29b17391150efb9a933faf491db7ea17f8274?cid=null"}
+{"Tweet":"WHY AM I ON TWITTER :("}
+{"Tweet":"WHY IS THERE AN EGG NEXT TO THIS THING?"}
+{"Tweet":"WHO FEELS LIKE IT'S 1992"}
+{"Tweet":"WORK SPACE PROJECT IS AWESOME"}
+{"Title":"Star Wars: Episode IV - A New Hope","Rated":"PG","Country":"USA","Language":"English","Plot":"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the galaxy from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.","Actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing"}
+{"Title":"Mr. Nobody","Rated":"R","Country":"Belgium, Germany, Canada, France","Language":"English, Mohawk","Plot":"A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.","Actors":"Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"}
+{}
+{}
+{}
+{"Title":"Mr. Nobody","Rated":"R","Country":"Belgium, Germany, Canada, France","Language":"English, Mohawk","Plot":"A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.","Actors":"Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"}
+{"Title":"Daredevil","Rated":"TV-MA","Country":"USA","Language":"English","Plot":"Matt Murdock, with his other senses superhumanly enhanced, fights crime as a blind lawyer by day, and vigilante by night.","Actors":"Charlie Cox, Deborah Ann Woll, Elden Henson, Vincent D'Onofrio"}
+{"Title":"Daredevil","Rated":"TV-MA","Country":"USA","Language":"English","Plot":"Matt Murdock, with his other senses superhumanly enhanced, fights crime as a blind lawyer by day, and vigilante by night.","Actors":"Charlie Cox, Deborah Ann Woll, Elden Henson, Vincent D'Onofrio"}
+{"Title":"Spiderman","Rated":"N/A","Country":"Switzerland","Language":"German","Plot":"N/A","Actors":"N/A"}
+{"Title":"Spiderman","Rated":"N/A","Country":"Switzerland","Language":"German","Plot":"N/A","Actors":"N/A"}

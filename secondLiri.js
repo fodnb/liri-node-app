@@ -1,33 +1,38 @@
+
+var inquirer = require("inquirer");
+
 var twitter = require("twitter");
 var key = require("./key.js");
 var spotify = require("spotify");
 var request = require("request");
-var action = process.argv[2];
-var queryIng = process.argv[3];
+// var action = process.argv[2];
+// var queryIng = process.argv[3];
 var fs = require("fs");
 var myArray = [];
-var myLength = process.argv;
+// var myLength = process.argv;
 
 
-if (myLength.length > 3) {
-    for (var i = 2; i < myLength.length; i++) {
-        myArray.push(process.argv[i]);
+// if (myLength.length > 3) {
+//     for (var i = 2; i < myLength.length; i++) {
+//         myArray.push(process.argv[i]);
 
-    }
-    console.log(myArray);
-    myArray = myArray.splice(1);
-    console.log(myArray);
-    myArray = myArray.toString();
+//     }
+//     console.log(myArray);
+//     myArray = myArray.splice(1);
+//     console.log(myArray);
+//     myArray = myArray.toString();
 
 
 
-    for (i = 0; i < myArray.length; i++) {
-        myArray = myArray.replace(",", " ");
+//     for (i = 0; i < myArray.length; i++) {
+//         myArray = myArray.replace(",", " ");
 
-    }
-    console.log(myArray);
-    queryIng = myArray;
-}
+//     }
+//     console.log(myArray);
+//     queryIng = myArray;
+// }
+
+var action = ["spotify-this-song", "movie-this", "my-tweets", "do-what-it-says"];
 
 
 
@@ -52,7 +57,7 @@ function switching() {
 }
 
 
-switching();
+// switching();
 
 /////////////////////// TWITTER  /////////////////////////////////////////////////////
 
@@ -172,7 +177,7 @@ function myOmdb() {
         queryIng = "Mr. Nobody";
     }
 
-    request("http://www.omdbapi.com/?t=" + queryIng+"&tomatoes=true", function(error, response, body) {
+    request("http://www.omdbapi.com/?t=" + queryIng, function(error, response, body) {
 
         // console.log('error:', error); // Print the error if one occurred 
         // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received 
@@ -180,7 +185,7 @@ function myOmdb() {
         newBody = JSON.parse(body);
         console.log(queryIng);
 
-        console.log('body:', newBody); // Print the HTML for the Google homepage. 
+        // console.log('body:', newBody); // Print the HTML for the Google homepage. 
         console.log(" ");
         console.log("**********************************************************************");
 
@@ -198,7 +203,7 @@ function myOmdb() {
         console.log(" ");
         console.log("ROTTEN TOMATOES RATING: " + newBody.imdbRating); //tomatoes rating
         console.log(" ");
-        console.log("ROTTEN TOMATOES URL:" + newBody.tomatoURL); // rotten tomatoes url 
+        console.log("ROTTEN TOMATOES URL:" + "https://www.rottentomatoes.com/m/" + queryIng); // rotten tomatoes url
         console.log("**********************************************************************");
         fs.appendFile("log.txt", JSON.stringify({ Title: newBody.Title, Rated: newBody.Rated, Country: newBody.Country, Language: newBody.Language, Plot: newBody.Plot, Actors: newBody.Actors }) + "\n", function(err) {
             if (err) {
@@ -246,3 +251,36 @@ function doWhat(){
         switching();
     });
 }
+
+
+
+inquirer.prompt([
+            {
+                name: "type",
+                type: "rawlist",
+                message: "choose one!",
+                choices: action
+
+            },
+            {
+                name: "search",
+                message: 'What would you like to search for?'
+}
+                
+        ]).then(function(a) {
+
+            var action = a.type;
+            var queryIng = a.search;
+
+// if(action === do-what-it-says){
+//     console.log("hi");
+// }
+console.log(typeof action);
+    
+console.log(typeof queryIng);
+
+
+switching();
+            
+
+                       });
