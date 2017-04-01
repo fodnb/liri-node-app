@@ -49,3 +49,5 @@
 {"Tweet":"WHY IS THERE AN EGG NEXT TO THIS THING?"}
 {"Tweet":"WHO FEELS LIKE IT'S 1992"}
 {"Tweet":"WORK SPACE PROJECT IS AWESOME"}
+{"Title":"Get Out","Rated":"R","Country":"USA","Language":"English","Plot":"A young African-American man visits his Caucasian girlfriend's mysterious family estate.","Actors":"Daniel Kaluuya, Allison Williams, Catherine Keener, Bradley Whitford","TomatoesUrl":"http://www.rottentomatoes.com/m/771454573"}
+{"Title":"Get Out","Rated":"R","Country":"USA","Language":"English","Plot":"A young African-American man visits his Caucasian girlfriend's mysterious family estate.","Actors":"Daniel Kaluuya, Allison Williams, Catherine Keener, Bradley Whitford","TomatoesUrl":"http://www.rottentomatoes.com/m/771454573"}

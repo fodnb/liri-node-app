@@ -198,10 +198,10 @@ function myOmdb() {
         console.log("ACTORS: " + newBody.Actors); // actors
         console.log(" ");
         console.log("ROTTEN TOMATOES RATING: " + newBody.imdbRating); //tomatoes rating
-        console.log(" ");
-        console.log("ROTTEN TOMATOES URL:" + newBody.tomatoURL); // rotten tomatoes url 
+        console.log(" "); 
+        console.log("ROTTEN TOMATOES URL: " + newBody.tomatoURL); // rotten tomatoes url 
         console.log("**********************************************************************");
-        fs.appendFile("log.txt", JSON.stringify({ Title: newBody.Title, Rated: newBody.Rated, Country: newBody.Country, Language: newBody.Language, Plot: newBody.Plot, Actors: newBody.Actors }) + "\n", function(err) {
+        fs.appendFile("log.txt", JSON.stringify({ Title: newBody.Title, Rated: newBody.Rated, Country: newBody.Country, Language: newBody.Language, Plot: newBody.Plot, Actors: newBody.Actors, TomatoesUrl: newBody.tomatoURL}) + "\n", function(err) {
             if (err) {
                 return console.log(err);
             }
